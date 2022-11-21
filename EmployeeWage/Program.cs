@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             EmployeeWage employeeWage = new EmployeeWage();
-            employeeWage.RefactorEmp();
+            employeeWage.RefactorEmp("Wipro",20,27,165);
+            employeeWage.RefactorEmp("Infosys", 18, 20,132);
         }
 
 
